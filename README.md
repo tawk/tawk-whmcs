@@ -8,10 +8,7 @@ or from a free customizable page. No catch. No spam. No wares. It's truly free a
 # Installation
 Copy files modules folder to your whmcs installation folder. After that you will have to activate
 it by going to Setup -> Addon modules (admin/configaddonmods.php) and finding and activating
-Tawk.to widget module. Make sure that you configure access to this module so that you have access to
-it.
+Tawk.to widget module. Then make sure that you configure access to this module so that you have access to it.
 
-# Usage
-Go to Addons -> Tawk.to widget and select widget you want to use on whmcs client side.
 
 If you don't have [tawk.to](https://tawk.to/?utm_source=whmcs&utm_medium=link&utm_campaign=signup) account, you can always [create one for free](https://tawk.to/?utm_source=whmcs&utm_medium=link&utm_campaign=signup)
