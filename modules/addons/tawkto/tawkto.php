@@ -11,7 +11,7 @@ function tawkto_config() {
     $configarray = array(
         "name" => "tawk.to WHMCS Module",
         "description" => "A module designed to make it easier for clients to integrate tawk.to into their websites, with no template edits",
-        "version" => "1.2.0",
+        "version" => "1.3.0",
         "author" => "<a href='https://www.tawk.to/'>tawk.to</a> Team",
         "language" => "english",
         "fields" => array(
