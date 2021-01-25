@@ -17,7 +17,7 @@ function tawkto_check($vars)
     } else {
         return;
     }
-    
+
     // get the API key, if set
     $apikey =  Capsule::table('tbladdonmodules')->select('value')-> WHERE('module', '=' , 'tawkto')->WHERE('setting' , '=', 'tawkto-key')->pluck('value');
     if (is_array($apikey)) {
@@ -53,7 +53,7 @@ function tawkto_check($vars)
 	if (isset($uid)) {
 		//to name, or not to name, that is the question
 		$showname =  Capsule::table('tbladdonmodules')->select('value')-> WHERE('module', '=' , 'tawkto')->WHERE('setting' , '=', 'tawkto-name')->WHERE('value' , 'on')->count();
-		
+
         if ($showname) {
             //now we get what we get!
             foreach (Capsule::table('tblclients') ->WHERE('id', $uid)->get() as $tawkclients) {
